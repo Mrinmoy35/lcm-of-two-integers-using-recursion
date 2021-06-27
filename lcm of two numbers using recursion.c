@@ -5,9 +5,12 @@ int main()
 {
     
     int a, b, lcm;
-    printf("Enter 2 integers to find LCM of:\n");
-    scanf("%d%d", &a, &b);
-    lcm = find_lcm(a,b);    // function call
+    printf("Enter the numbers to find LCM ");
+    printf("\nEnter the first number:");
+    scanf("%d", &a);
+    printf("\nEnter the second number:");
+    scanf("%d", &b);
+    lcm = find_lcm(a,b);    
     printf("\n LCM of %d and %d is: %d\n\n", a, b, lcm);
     
     return 0;
